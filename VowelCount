@@ -1,0 +1,7 @@
+def VowelCount(str)
+
+  str = str.split('').select{|a| a =~ /[aeiouAEIOU]/}
+  
+  return str.length
+         
+end
