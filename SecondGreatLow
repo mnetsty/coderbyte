@@ -1,0 +1,12 @@
+def SecondGreatLow(arr)
+    arr.uniq!
+    arr.sort!
+    if arr.length == 2
+        sec_lowest = arr[1]
+        sec_greatest = arr[0]
+    else
+        sec_lowest = arr[1]
+        sec_greatest = arr[-2]
+    end
+    return "#{sec_lowest} #{sec_greatest}"
+end
