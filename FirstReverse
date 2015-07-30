@@ -1,0 +1,8 @@
+def FirstReverse(str)
+
+  jihye = str.reverse
+  
+  return jihye
+         
+end
+   
