@@ -1,0 +1,12 @@
+def FirstFactorial(num)
+ 
+  factorial = 1
+  counter = 1
+  num.times do
+    factorial = factorial * counter
+    counter = counter + 1
+  end
+  
+  return factorial 
+ 
+end
