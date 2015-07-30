@@ -1,0 +1,16 @@
+def CheckNums(num1,num2)
+  
+  
+  jihye = String.new
+  if num1 < num2
+    jihye ="true"
+    
+    elsif num1 > num2
+    jihye = "false"
+    
+    elsif num1 == num2
+    jihye = "-1"
+    end
+  return jihye
+
+end
