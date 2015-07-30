@@ -1,0 +1,13 @@
+def LetterCapitalize(str)
+  
+  jihye = ""
+  str.split.each do |word|
+    jihye += " "+word.capitalize
+  end
+  
+  
+  return jihye
+  
+  
+         
+end
